@@ -17,3 +17,19 @@ body{background:radial-gradient(ellipse at 74% 2%,#20241b 0,transparent 510px),#
 .formula-note{background:#171b14;border-color:#30372a}.formula-icon{background:#d2ff45;color:#1a1d11}.formula-note strong{color:#e3e8da}.formula-note>div:nth-child(2) span{color:#a2aa99}.formula{color:#c2c8b8}.formula i{color:#88917f}footer{color:#858b82}.heart{color:#d2ff45}
 @media(max-width:900px){.hero:before{inset:17px -16px}}
 @media(max-width:600px){.hero:before{inset:12px -9px;border-radius:17px}.hero{padding-top:38px;padding-bottom:39px}.hero h1{font-size:44px}.result-card{background:#1c1e1b}}
+
+/* Jewel-tone accents over the charcoal palette */
+:root{--violet:#b79aff;--blue:#76c8ff;--coral:#ff927e;--lime:#d2ff45}
+body{background:radial-gradient(ellipse at 77% 2%,#242039 0,transparent 400px),radial-gradient(ellipse at 13% 18%,#14252a 0,transparent 360px),#090a0d}
+.brand-mark{background:linear-gradient(145deg,#d2ff45,#a3eb4d)}
+.hero:before{background:radial-gradient(ellipse at 88% 14%,#2c2244 0,transparent 34%),linear-gradient(110deg,#151719 0%,#111316 56%,#17151e 100%);border-color:#34303e}
+.eyebrow{color:#c5aaff}.hero h1 span{background:linear-gradient(100deg,#d2ff45 8%,#83e5c1 47%,#b79aff 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-facts .fact-dot{background:#b79aff}.hero-facts .fact-dot.mint{background:#76c8ff}.hero-facts .fact-dot.gold{background:#ff927e}
+.result-card:before{background:linear-gradient(90deg,#d2ff45 0%,#76c8ff 48%,#b79aff 100%)}.result-icon{background:#29223a;color:#c4a8ff}.progress-track span{background:linear-gradient(90deg,#d2ff45,#76c8ff,#b79aff)}
+.result-card.first .grade-pill{background:#d2ff45;color:#19200c}.result-card.upper .grade-pill{background:#d7c9ff;color:#392a59}.result-card.lower .grade-pill{background:#bce8ff;color:#15394d}.result-card.third .grade-pill{background:#ffd0a0;color:#563411}.result-card.below .grade-pill{background:#ffb4a8;color:#54251e}
+.thresholds span:nth-child(1){box-shadow:inset 2px 0 #d2ff45}.thresholds span:nth-child(2){box-shadow:inset 2px 0 #b79aff}.thresholds span:nth-child(3){box-shadow:inset 2px 0 #76c8ff}.thresholds span:nth-child(4){box-shadow:inset 2px 0 #ff927e}
+.filter-tabs button.selected{background:linear-gradient(110deg,#d2ff45,#b8f58b);color:#171b10}
+.semester-card{position:relative}.semester-card:nth-child(4n+1){border-color:#45513a}.semester-card:nth-child(4n+1) .semester-marker{background:#303923;color:#d2ff45}.semester-card:nth-child(4n+2){border-color:#3d354e}.semester-card:nth-child(4n+2) .semester-marker{background:#302741;color:#c3aaff}.semester-card:nth-child(4n+3){border-color:#29404d}.semester-card:nth-child(4n+3) .semester-marker{background:#203441;color:#76c8ff}.semester-card:nth-child(4n+4){border-color:#4a3733}.semester-card:nth-child(4n+4) .semester-marker{background:#3b2b29;color:#ff9d88}
+.semester-card:nth-child(4n+1) .semester-header{background:linear-gradient(90deg,#1d211a,#191b18)}.semester-card:nth-child(4n+2) .semester-header{background:linear-gradient(90deg,#211d28,#191b18)}.semester-card:nth-child(4n+3) .semester-header{background:linear-gradient(90deg,#19242a,#191b18)}.semester-card:nth-child(4n+4) .semester-header{background:linear-gradient(90deg,#291e1c,#191b18)}
+.module-class.first{color:#d2ff45}.module-class.upper{color:#c4a8ff}.module-class.lower{color:#76c8ff}.module-class.third,.module-class.below{color:#ff927e}
+.mark-cell:focus-within{border-color:#b79aff;box-shadow:0 0 0 3px #b79aff25}.mark-cell input{color:#e5d8ff}.formula-note{background:linear-gradient(110deg,#1c2119,#191a22 52%,#211b27);border-color:#34343a}.formula-icon{background:linear-gradient(145deg,#d2ff45,#b79aff);color:#171a13}.formula-note strong{color:#f0f2ea}.formula-note>div:nth-child(2) span{color:#a9ada6}.formula{color:#c6bbdf}
